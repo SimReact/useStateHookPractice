@@ -1,2 +1,2 @@
 # useStateHookPractice
-Created with CodeSandbox
+Learning React (Friday, 6 October 2020)
