@@ -6,6 +6,7 @@ function App() {
   function Time() {
     setTime(new Date().toLocaleTimeString());
   }
+  setInterval(Time, 1000);
 
   return (
     <div className="container">
