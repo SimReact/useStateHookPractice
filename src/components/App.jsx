@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 function App() {
+  const [time, setTime] = useState(new Date().toLocaleTimeString());
+
+  function Time() {
+    setTime(new Date().toLocaleTimeString());
+  }
+
   return (
     <div className="container">
-      <h1>TIME</h1>
-      <button>Get Time</button>
+      <h1>{time}</h1>
+      <button onClick={Time}>Get Time</button>
     </div>
   );
 }
